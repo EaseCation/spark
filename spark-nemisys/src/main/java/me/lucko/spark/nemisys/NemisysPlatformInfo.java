@@ -33,7 +33,7 @@ public class NemisysPlatformInfo implements PlatformInfo {
 
     @Override
     public Type getType() {
-        return Type.SERVER;
+        return Type.PROXY;
     }
 
     @Override
@@ -48,6 +48,6 @@ public class NemisysPlatformInfo implements PlatformInfo {
 
     @Override
     public String getMinecraftVersion() {
-        return this.server.getVersion();
+        return null;
     }
 }
